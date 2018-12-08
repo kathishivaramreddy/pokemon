@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {fetchPokemonData} from "./actions/pokemonData";
 import {Pokemons} from "./Pokemons";
+import './Pokedex.css'
 
 export class Pokedex extends React.Component {
 
@@ -12,10 +13,9 @@ export class Pokedex extends React.Component {
 
 
     render(){
-        console.log(this.props.pokedata)
         return(
-            <div>
-                <h5>Hello Pokemon</h5>
+            <div className="pokemonlist">
+                <h5>Welcome to Pokemon World</h5>
                 <Pokemons pokedata={this.props.pokedata} />
             </div>
         )

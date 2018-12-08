@@ -1,0 +1,8 @@
+.pokemonlist{
+    border-color: coral;
+    border:solid;
+    min-height: 100%;
+    background-color:InfoBackground;
+    overflow: hidden;
+    /*border-style: s;*/
+}

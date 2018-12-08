@@ -1,0 +1,18 @@
+.pokemons{
+    padding: 30px;
+    margin: 3px;
+    border-color: aqua;
+    border: solid;
+    width: 12%;
+    height: auto;
+    /*height:2%;*/
+    float: left;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: floralwhite;
+}
+
+img{
+    height: 120px;
+    width: 130px;
+}

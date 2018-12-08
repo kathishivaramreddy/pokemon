@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Pokemons.css';
 
 export class Pokemons extends React.Component{
 
@@ -8,11 +9,10 @@ export class Pokemons extends React.Component{
 
     render(){
         return(
-            this.props.pokedata.pokedata.map( (pokemon,index) => <div>
-                <li>{pokemon.name}</li>
+            this.props.pokedata.pokedata.map( (pokemon,index) => <div className="pokemons">
                 <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index+1}.png`}/>
-                {/*console.log('`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index}.png`')*/}
-            </div>
+                <strong>{pokemon.name}</strong>
+                </div>
             )
 
         )
