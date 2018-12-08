@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Routes} from './Routes'
 import {NavigationBar} from "./NavigationBar";
 import './App.css';
+import Pokedex from "./Pokedex";
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
             </div>
 
             <div className="main">
-                <h5>Hello Pokemon World</h5>
+                <Pokedex/>
             </div>
 
             {/*<Routes/>*/}

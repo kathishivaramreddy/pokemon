@@ -1,7 +1,7 @@
 import {FETCH_POKEMON} from "../actions/types";
 
 const initialState = {
-    pokemons : []
+    pokedata : []
 }
 
 export default function(state=initialState,action) {
@@ -10,7 +10,7 @@ export default function(state=initialState,action) {
         case FETCH_POKEMON:
             return {
                 ...state,
-                pokemons:action.payload
+                pokedata:action.payload
             }
         default:
             return state
