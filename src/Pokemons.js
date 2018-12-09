@@ -14,7 +14,7 @@ export class Pokemons extends React.Component{
         return(
             this.props.pokedata.pokedata.map( (pokemon,index) => <div className="pokemons" >
                 <ImageSlider index={index+1}/>
-                <strong>{pokemon.name}</strong>
+                <strong onClick={() => alert(pokemon.name)}>{pokemon.name}</strong>
                 </div>
             )
 

@@ -16,7 +16,7 @@ const fadeProperties = {
     autoplay:false,
     infinite:false,
     indicators:true,
-    arrows:true
+    arrows:false
 }
 
 export const ImageSlider = (props) => {

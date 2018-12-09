@@ -19,6 +19,10 @@ class App extends Component {
                 <Pokedex/>
             </div>
 
+            <div className="footer">
+                <img className="footer-image" src={require('./7 .png')} alt="pokeimage"/>
+            </div>
+
             {/*<Routes/>*/}
         </div>
     );
