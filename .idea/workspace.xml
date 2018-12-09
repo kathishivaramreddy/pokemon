@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b50099-4eaa-434b-b220-a33069cb675e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/pokemonDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/pokemonDetails.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/pokedetailsReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/pokedetailsReducer.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ImageSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImageSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pokemons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pokedex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokedex.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pokemons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +47,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="6" />
-          <entry key="js" value="17" />
+          <entry key="js" value="31" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
@@ -50,42 +55,51 @@
         <counts>
           <entry key="CSS" value="6" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="17" />
+          <entry key="JavaScript" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="975" />
-          <entry key="js" value="3262" />
+          <entry key="css" value="1267" />
+          <entry key="js" value="4837" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="975" />
-          <entry key="JavaScript" value="3262" />
+          <entry key="CSS" value="1267" />
+          <entry key="JavaScript" value="4837" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/pokemonData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.css">
+        <entry file="file://$PROJECT_DIR$/src/actions/pokemonDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            <state>
+              <caret column="61" lean-forward="true" selection-start-column="61" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/pokemonDetails.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="32" column="68" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="32" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,20 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pokedex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pokedex.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="-262">
+              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -114,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pokemons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+            <state relative-caret-position="216">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -124,10 +126,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ImageSlider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="495">
+              <caret line="41" column="148" selection-start-line="41" selection-start-column="148" selection-end-line="41" selection-end-column="148" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -136,36 +150,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ImageSlider.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-slideshow-image/lib/index.js">
+        <entry file="file://$PROJECT_DIR$/src/reducers/pokedataReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+            <state>
+              <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+        <entry file="file://$PROJECT_DIR$/src/reducers/pokedetailsReducer.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="218">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="18" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pokemons.css">
+        <entry file="file://$PROJECT_DIR$/src/reducers/pokedataReducer.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state>
+              <caret selection-end-line="25" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,16 +219,21 @@
         <option value="$PROJECT_DIR$/src/actions/pokemonData.js" />
         <option value="$PROJECT_DIR$/src/reducers/pokedataReducer.test.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/pokedataReducer.js" />
         <option value="$PROJECT_DIR$/src/ImageSlider.css" />
-        <option value="$PROJECT_DIR$/src/Pokedex.js" />
         <option value="$PROJECT_DIR$/src/Pokedex.css" />
         <option value="$PROJECT_DIR$/src/Pokemons.css" />
-        <option value="$PROJECT_DIR$/src/ImageSlider.js" />
-        <option value="$PROJECT_DIR$/src/Pokemons.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/actions/types.js" />
+        <option value="$PROJECT_DIR$/src/actions/pokemonDetails.js" />
+        <option value="$PROJECT_DIR$/src/actions/pokemonDetails.test.js" />
+        <option value="$PROJECT_DIR$/src/reducers/pokedetailsReducer.test.js" />
+        <option value="$PROJECT_DIR$/src/reducers/pokedetailsReducer.js" />
+        <option value="$PROJECT_DIR$/src/Pokedex.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/Pokemons.js" />
+        <option value="$PROJECT_DIR$/src/ImageSlider.js" />
       </list>
     </option>
   </component>
@@ -227,6 +244,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
@@ -288,7 +311,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544352255591" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544379855502" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -310,17 +333,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.pokedata reducer.should return new state on action">
-    <configuration name="pokedata reducer.should return initial state for undefined state" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.pokedetails reducer.should return new state on action">
+    <configuration name="fetch pokemon details.should fetch pokemon details" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/reducers/pokedataReducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/actions/pokemonDetails.test.js" />
       <test-names>
-        <test-name value="pokedata reducer" />
-        <test-name value="should return initial state for undefined state" />
+        <test-name value="fetch pokemon details" />
+        <test-name value="should fetch pokemon details" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -333,6 +356,32 @@
       <test-file value="$PROJECT_DIR$/src/reducers/pokedataReducer.test.js" />
       <test-names>
         <test-name value="pokedata reducer" />
+        <test-name value="should return new state on action" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="pokedetails reducer.should return initial state for undefined state" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/reducers/pokedetailsReducer.test.js" />
+      <test-names>
+        <test-name value="pokedetails reducer" />
+        <test-name value="should return initial state for undefined state" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="pokedetails reducer.should return new state on action" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/reducers/pokedetailsReducer.test.js" />
+      <test-names>
+        <test-name value="pokedetails reducer" />
         <test-name value="should return new state on action" />
       </test-names>
       <method v="2" />
@@ -352,14 +401,18 @@
     </configuration>
     <list>
       <item itemvalue="Jest.pokemon data.should dispatch fetch for pokemon data" />
-      <item itemvalue="Jest.pokedata reducer.should return initial state for undefined state" />
       <item itemvalue="Jest.pokedata reducer.should return new state on action" />
+      <item itemvalue="Jest.fetch pokemon details.should fetch pokemon details" />
+      <item itemvalue="Jest.pokedetails reducer.should return initial state for undefined state" />
+      <item itemvalue="Jest.pokedetails reducer.should return new state on action" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.pokedata reducer.should return new state on action" />
-        <item itemvalue="Jest.pokedata reducer.should return initial state for undefined state" />
+        <item itemvalue="Jest.pokedetails reducer.should return new state on action" />
+        <item itemvalue="Jest.pokedetails reducer.should return initial state for undefined state" />
+        <item itemvalue="Jest.fetch pokemon details.should fetch pokemon details" />
         <item itemvalue="Jest.pokemon data.should dispatch fetch for pokemon data" />
+        <item itemvalue="Jest.pokedata reducer.should return new state on action" />
       </list>
     </recent_temporary>
   </component>
@@ -374,48 +427,47 @@
       <option name="presentableId" value="Default" />
       <updated>1544257870579</updated>
       <workItem from="1544257877712" duration="27883000" />
-      <workItem from="1544338913491" duration="6609000" />
+      <workItem from="1544338913491" duration="19744000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pokemon_data_should_dispatch_fetch_for_pokemon_data - 2018.12.08 at 14h 42m 30s.xml">
+    <history-entry file="fetch_pokemon_details_should_fetch_pokemon_details - 2018.12.09 at 20h 05m 46s.xml">
+      <configuration name="fetch pokemon details.should fetch pokemon details" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="fetch_pokemon_details_should_fetch_pokemon_details - 2018.12.09 at 20h 06m 51s.xml">
+      <configuration name="fetch pokemon details.should fetch pokemon details" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="fetch_pokemon_details_should_fetch_pokemon_details - 2018.12.09 at 20h 07m 51s.xml">
+      <configuration name="fetch pokemon details.should fetch pokemon details" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="pokemon_data_should_dispatch_fetch_for_pokemon_data - 2018.12.09 at 20h 09m 38s.xml">
       <configuration name="pokemon data.should dispatch fetch for pokemon data" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="pokemon_data_should_dispatch_fetch_for_pokemon_data - 2018.12.08 at 14h 44m 08s.xml">
-      <configuration name="pokemon data.should dispatch fetch for pokemon data" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="fetch_pokemon_details_should_fetch_pokemon_details - 2018.12.09 at 20h 09m 52s.xml">
+      <configuration name="fetch pokemon details.should fetch pokemon details" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="pokemon_data_should_dispatch_fetch_for_pokemon_data - 2018.12.08 at 14h 47m 32s.xml">
-      <configuration name="pokemon data.should dispatch fetch for pokemon data" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="fetch_pokemon_details_should_fetch_pokemon_details - 2018.12.09 at 20h 11m 25s.xml">
+      <configuration name="fetch pokemon details.should fetch pokemon details" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="pokemon_data_should_dispatch_fetch_for_pokemon_data - 2018.12.08 at 14h 47m 50s.xml">
-      <configuration name="pokemon data.should dispatch fetch for pokemon data" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="pokedetails_reducer_should_return_initial_state_for_undefined_state - 2018.12.09 at 22h 11m 17s.xml">
+      <configuration name="pokedetails reducer.should return initial state for undefined state" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="pokemon_data_should_dispatch_fetch_for_pokemon_data - 2018.12.08 at 14h 48m 15s.xml">
-      <configuration name="pokemon data.should dispatch fetch for pokemon data" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="pokedetails_reducer_should_return_new_state_on_action - 2018.12.09 at 22h 11m 55s.xml">
+      <configuration name="pokedetails reducer.should return new state on action" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="pokedata_reducer_should_return_initial_state_for_undefined_state - 2018.12.08 at 15h 23m 27s.xml">
-      <configuration name="pokedata reducer.should return initial state for undefined state" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="pokedetails_reducer_should_return_new_state_on_action - 2018.12.09 at 22h 12m 08s.xml">
+      <configuration name="pokedetails reducer.should return new state on action" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="pokedata_reducer_should_return_initial_state_for_undefined_state - 2018.12.08 at 15h 23m 45s.xml">
-      <configuration name="pokedata reducer.should return initial state for undefined state" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="pokedata_reducer_should_return_new_state_on_action - 2018.12.08 at 15h 25m 13s.xml">
-      <configuration name="pokedata reducer.should return new state on action" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="pokedata_reducer_should_return_new_state_on_action - 2018.12.08 at 15h 26m 54s.xml">
-      <configuration name="pokedata reducer.should return new state on action" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="pokedata_reducer_should_return_new_state_on_action - 2018.12.08 at 15h 27m 00s.xml">
-      <configuration name="pokedata reducer.should return new state on action" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="pokedetails_reducer_should_return_new_state_on_action - 2018.12.09 at 22h 18m 10s.xml">
+      <configuration name="pokedetails reducer.should return new state on action" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34492000" />
+    <option name="totallyTimeSpent" value="47627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -424,12 +476,12 @@
       <window_info id="Learn" order="4" weight="0.3295699" />
       <window_info id="npm" order="5" side_tool="true" />
       <window_info id="Designer" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.25376344" />
+      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.25376344" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32960895" />
@@ -438,14 +490,14 @@
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="right" id="SciView" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3295699" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" id="Database" order="9" weight="0.3295699" />
     </layout>
   </component>
@@ -467,6 +519,10 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/NavigationBar.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -482,9 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/types.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -492,51 +545,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/pokedataReducer.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/pokedataReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/pokemonData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/pokemonData.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,6 +569,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pokemons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ImageSlider.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -567,56 +603,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImageSlider.js">
+    <entry file="file://$PROJECT_DIR$/src/actions/types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/pokemonData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/pokemonData.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/pokedataReducer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="25" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/pokemonDetails.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="32" column="68" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="32" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/pokedetailsReducer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/pokemonDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="61" lean-forward="true" selection-start-column="61" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/pokedetailsReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pokemons.css">
+    <entry file="file://$PROJECT_DIR$/src/reducers/pokedataReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pokemons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state>
+          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pokedex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="-262">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pokemons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/ImageSlider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        <state relative-caret-position="495">
+          <caret line="41" column="148" selection-start-line="41" selection-start-column="148" selection-end-line="41" selection-end-column="148" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

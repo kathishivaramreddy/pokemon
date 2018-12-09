@@ -27,19 +27,19 @@ export const ImageSlider = (props) => {
         <Fade {...fadeProperties}>
             <div className="each-fade">
                 <div className="image-container">
-                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${props.index}.png`} />
+                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${props.index}.png`} alt={props.index}/>
                 </div>
 
             </div>
             <div className="each-fade">
                 <div className="image-container">
-                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${props.index}.png`} />
+                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${props.index}.png`} alt={props.index}/>
                 </div>
 
             </div>
             <div className="each-fade">
                 <div className="image-container">
-                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${props.index}.png`} />
+                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${props.index}.png`} alt={props.index}/>
                 </div>
 
             </div>
