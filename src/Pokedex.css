@@ -1,8 +1,18 @@
 .pokemonlist{
-    border-color: coral;
-    border:solid;
-    min-height: 100%;
+    border-color: InfoBackground;
+    /*border:InfoBackground;*/
+    /*min-height: 100%;*/
+    border-style: groove;
     background-color:InfoBackground;
     overflow: hidden;
-    /*border-style: s;*/
+}
+
+h3{
+    text-align: center;
+    color:orangered;
+    text-decoration: double;
+    text-shadow: orange;
+    /*box-sizing: border-box;*/
+    width: fit-content;
+
 }

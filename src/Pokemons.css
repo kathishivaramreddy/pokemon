@@ -1,18 +1,26 @@
 .pokemons{
-    padding: 30px;
-    margin: 3px;
-    border-color: aqua;
-    border: solid;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 30px;
+    border-style: ridge;
     width: 12%;
-    height: auto;
-    /*height:2%;*/
     float: left;
     box-sizing: border-box;
     cursor: pointer;
-    background-color: floralwhite;
+    background-color: khaki;
+    overflow: auto;
+
+}
+
+.pokemons:hover{
+    /*transform:scaleX(1.5);*/
+    /*transform:scaleY(1.5);*/
+    /*box-shadow: 5px 5px 2px floralwhite;*/
+    animation: ease-in-out;
 }
 
 img{
     height: 120px;
-    width: 130px;
+    width: 110px;
 }
+

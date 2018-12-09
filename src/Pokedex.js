@@ -15,7 +15,7 @@ export class Pokedex extends React.Component {
     render(){
         return(
             <div className="pokemonlist">
-                <h5>Welcome to Pokemon World</h5>
+                <h3 className="heading">Welcome to Pokemon World</h3>
                 <Pokemons pokedata={this.props.pokedata} />
             </div>
         )
