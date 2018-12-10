@@ -3,48 +3,57 @@ import './Pokemons.css';
 import {ImageSlider} from './ImageSlider'
 import {fetchPokemonDetails} from './actions/pokemonDetails'
 import {connect} from 'react-redux';
-import Modal from 'react-responsive-modal';
-import styles from './custom-styling.css';
 
 export class Pokemons extends React.Component{
 
     constructor(props){
         super(props);
-        this.state={open:false}
+        this.state = {display:"none",
+            name:""
+        }
 
     }
 
-    onOpenModal = () => {
-        this.setState({ open: true });
+    onOpenModal = (name) => {
+        this.setState({display:"block",name:name})
     };
+
+
 
     onCloseModal = () => {
-        this.setState({ open: false });
-    };
+        this.setState({display:"none"})
+    }
 
-    onClickCall = (url) => {
+    onClickCall = (url,name) => {
 
         this.props.fetchPokemonDetails(url)
-        this.onOpenModal()
+        this.onOpenModal(name)
     }
+
+
 
 
     render(){
-        const { open } = this.state;
-        return(
-            this.props.pokedata.pokedata.map( (pokemon,index) => <div className="pokemons" >
+        console.log('name',this.state.name)
+        var modalStyle ={display : this.state.display}
+        var pokelist = this.props.pokedata.pokedata.map( (pokemon,index) => <div className="pokemons" >
                 <ImageSlider index={index+1}/>
-                <strong onClick={() => this.onClickCall(pokemon.url) }>{pokemon.name}</strong>
-                <Modal open={open} onClose={this.onCloseModal}
-                       classNames={{
-                           overlay: styles.customOverlay,
-                           modal: styles.customModal,
-                       }}>
-                    <h2>Hello World</h2>
-                </Modal>
-                </div>
-            )
+                <strong id="myBtn" onClick={() => this.onClickCall(pokemon.url,pokemon.name) }>
+                    {pokemon.name}</strong>
+            </div>
+        )
+        var modal = <div id="myModal" className="modal" style = {modalStyle}>
+            <div className="modal-content">
+                <span className="close" onClick={this.onCloseModal}>&times;</span>
+                <p>{this.state.name}</p>
+            </div>
+        </div>
 
+        return(
+            <div>
+                {pokelist}
+                {modal}
+            </div>
         )
     }
 }

@@ -18,7 +18,7 @@ class App extends Component {
             <div className="main">
                 <Pokedex/>
             </div>
-
+            <br/>
             <div className="footer">
                 <img className="footer-image" src={require('./images/7 .png')} alt="pokeimage"/>
             </div>
