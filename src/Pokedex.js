@@ -9,18 +9,24 @@ export class Pokedex extends React.Component {
 
 
     componentDidMount(){
+
         this.props.fetchPokemonData()
     }
 
 
 
     render(){
-        return(
+        // console.log('loading',this.state.loading)
+        return(<div>
+            {
+                this.props.pokedata.isFetching && <div className="loading"></div>
+            }
             <div className="pokemonlist">
                 <h3 className="heading">Welcome to Pokemon World</h3>
                 <Pokemons pokedata={this.props.pokedata} />
             </div>
-        )
+            </div>
+            )
     }
 }
 

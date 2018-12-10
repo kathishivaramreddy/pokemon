@@ -10,6 +10,7 @@
     background-color: khaki;
     overflow: auto;
     box-shadow: 4px 3px khaki;
+
 }
 
 .pokemons:hover{
@@ -27,32 +28,44 @@ img{
 /*modal*/
 
 .modal {
-    /*display: none; !* Hidden by default *!*/
+    float: left;
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 50px; /* Location of the box */
     left: 30%;
     top: 30%;
     width: 40%; /* Full width */
-    height: 40%; /* Full height */
+    max-height: 60%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: #361dfe; /* Fallback color */
-    background-color: #b2dbbf; /* Black w/ opacity */
+    background-color: dimgray; /* Fallback color */
+    background-color: dimgray; /* Black w/ opacity */
+    box-sizing: border-box;
+    box-shadow:  4px 5px ThreeDShadow;
+    /*overflow: hidden;*/
+    border-style: outset;
 }
 
 /* Modal Content */
 .modal-content {
-    background-color: blanchedalmond;
+
+    background-color: dimgray;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
     border: 1px  #888;
     width: 80%;
-    height: 80%;
+    min-height: 80%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-style: inset;
+    color: black;
+    text-transform: capitalize ;
+    font-style: oblique;
 }
 
 /* The Close Button */
 .close {
-    color: #aaaaaa;
+    color: firebrick;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -60,7 +73,18 @@ img{
 
 .close:hover,
 .close:focus {
-    color: #000;
+    color: rebeccapurple;
     text-decoration: none;
     cursor: pointer;
+}
+
+
+.col1, .col2 , .col3{
+    float: left;
+    margin: 30px;
+}
+
+h2{
+    color:floralwhite;
+    font-family: Dialog;
 }
