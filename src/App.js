@@ -20,7 +20,7 @@ class App extends Component {
             </div>
 
             <div className="footer">
-                <img className="footer-image" src={require('./7 .png')} alt="pokeimage"/>
+                <img className="footer-image" src={require('./images/7 .png')} alt="pokeimage"/>
             </div>
 
             {/*<Routes/>*/}

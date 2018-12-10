@@ -2,9 +2,11 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {fetchPokemonData} from "./actions/pokemonData";
 import Pokemons from "./Pokemons";
+import Pagination from 'react-js-pagination';
 import './Pokedex.css'
 
 export class Pokedex extends React.Component {
+
 
     componentDidMount(){
         this.props.fetchPokemonData()

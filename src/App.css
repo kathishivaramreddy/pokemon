@@ -1,5 +1,5 @@
 .App-header {
-  background-image: url("Banner.jpg");
+  background-image: url("./images/Banner.jpg");
   background-position: center;
   min-height: 20vh;
   display: flex;
@@ -40,7 +40,7 @@
 .footer-image{
   position: relative;
   /*animation:pokefooter infinite 2s running;*/
-  animation: pokefooter 5s infinite;
+  /*animation: pokefooter 5s infinite;*/
   /*animation-direction: normal;*/
 }
 
