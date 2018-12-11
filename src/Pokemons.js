@@ -32,9 +32,7 @@ export class Pokemons extends React.Component{
     }
 
     render(){
-        console.log('name',this.state.name)
-        console.log(this.props.pokedetails.abilities,'types')
-        console.log(this.props.pokedata.pokedata,'pokedata')
+
         var modalStyle ={display : this.state.display}
         var pokelist = this.props.pokedata.pokedata.map( (pokemon,index) => <div className="pokemons" >
                 <ImageSlider index={index+1}/>
@@ -46,23 +44,20 @@ export class Pokemons extends React.Component{
             <div className="modal-content">
                 <span className="close" onClick={this.onCloseModal}>&times;</span>
 
-                {/*<div className="cols">*/}
                 <div className="col1">
                     <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${this.state.index+1}.png`}/>
-                    <p>{this.state.name}</p>
+                    <p className="poketext">{this.state.name}</p>
                 </div>
 
                 <div className="col2">
                     <h2>Types</h2>
-                    {this.props.pokedetails.types.map( (pokemon) => <p>{pokemon.type.name}</p>)}
+                    {this.props.pokedetails.types.map( (pokemon) => <p className="poketext">{pokemon.type.name}</p>)}
                 </div>
 
                 <div className="col3">
                     <h2>Abilities</h2>
-                    {this.props.pokedetails.abilities.map( (pokemon) => <p>{pokemon.ability.name}</p>)}
+                    {this.props.pokedetails.abilities.map( (pokemon) => <p className="poketext">{pokemon.ability.name}</p>)}
                 </div>
-
-                {/*</div>*/}
 
             </div>
         </div>
