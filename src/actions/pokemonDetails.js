@@ -1,4 +1,4 @@
-import {FETCH_POKEMON, FETCH_POKEMON_DETAILS} from "./types";
+import {FETCH_POKEMON_DETAILS} from "./types";
 
 export const fetchPokemonDetails = (url) => dispatch => {
 

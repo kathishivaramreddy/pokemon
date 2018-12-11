@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import {Routes} from './Routes'
-import {NavigationBar} from "./NavigationBar";
+import {Routes} from './components/Routes'
+import {NavigationBar} from "./components/NavigationBar";
 import './App.css';
-import Pokedex from "./Pokedex";
+import Pokedex from "./components/Pokedex";
 
 class App extends Component {
   render() {

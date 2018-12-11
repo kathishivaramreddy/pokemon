@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {fetchPokemonData} from "./actions/pokemonData";
+import {fetchPokemonData} from "../actions/pokemonData";
 import Pokemons from "./Pokemons";
 import './Pokedex.css'
 
@@ -18,7 +18,7 @@ export class Pokedex extends React.Component {
                 this.props.pokedata.isFetching
                 &&
                 <div className="loading">
-                    <img className="loaderimage" src={require('./images/ping-loader.gif')}/>
+                    <img className="loaderimage" src={require('../images/ping-loader.gif')}/>
                 </div>
             }
             <div className="pokemonlist">

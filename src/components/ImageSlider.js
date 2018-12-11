@@ -2,17 +2,8 @@ import React from 'react';
 import {Fade} from 'react-slideshow-image';
 import './ImageSlider.css'
 
-const fadeImages = (index) => {
-
-        return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index}.png`
-        // `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${this.props.index}.png`,
-        // `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${this.props.index}.png`
-
-}
 
 const fadeProperties = {
-    // duration:5000,
-    // transitionDuration:500,
     autoplay:false,
     infinite:false,
     indicators:true,

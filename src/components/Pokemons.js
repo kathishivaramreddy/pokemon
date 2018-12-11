@@ -1,7 +1,7 @@
 import React from 'react';
 import './Pokemons.css';
 import {ImageSlider} from './ImageSlider'
-import {fetchPokemonDetails} from './actions/pokemonDetails'
+import {fetchPokemonDetails} from '../actions/pokemonDetails'
 import {connect} from 'react-redux';
 
 export class Pokemons extends React.Component{
